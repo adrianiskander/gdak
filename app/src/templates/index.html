@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="See most current buses and trams positions on the map in real time.">
+
+  <title>GDAK | Real-Time Public Transportation Map of Gdansk, Poland</title>
+
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+</head>
+<body>
+  <section class="Front">
+    <header class="Front-header shadow">
+      <div class="container">
+        <h1 class="flex-col">
+          <span class="Front-header-title"><strong>GDAK</strong></span>
+          <span class="d-none">&nbsp;-&nbsp;</span>
+          <span class="Front-header-subtitle"><strong>Real-Time Public Transportation Map of Gdansk, Poland</strong></span>
+        </h1>
+        <h2 class="Front-header-description">See most current buses and trams positions on the map in real time</h2>
+        <div class="flex-justify-center flex-md-justify-start">
+          <a class="btn btn-danger text-white" onClick="toggleFront()"><b>OPEN MAP</b></a>
+        </div>
+      </div>
+    </header>
+    <div class="Front-map-overlay" onClick="toggleFront()">
+      <a class="Front-map-overlay-toggle btn btn-danger text-white"><b>OPEN MAP</b></a>
+    </div>
+  </section>
+
+
+  <nav class="Navbar">
+    <div class="flex-row">
+      <a class="Navbar-label Navbar-brand" onClick="toggleFront()">GDAK&nbsp;<span class="text-yellow">&#10095;</span></a>
+      <div class="Navbar-label bg-white">
+        <span>Updated:</span>
+        <span class="Navbar-label bg-white" id="lastUpdate"></span>        
+      </div>
+    </div>
+  </nav>
+
+
+  <div id="map" class="Map"></div>
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.min.js"></script>
+  <script src="/static/js/app.js"></script>
+</body>
+</html>

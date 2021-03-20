@@ -1,0 +1,11 @@
+__pycache__
+
+*.log
+*.sqlite3
+
+confsec.*
+gdakenv
+gpsdata.json
+pyenv
+temp
+tmp

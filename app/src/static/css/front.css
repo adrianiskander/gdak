@@ -1,0 +1,76 @@
+.Front {
+  position: absolute;
+
+  height: 100vh;
+  width: 100%;
+  z-index: 11;
+}
+
+.Front-hidden {
+  display: none;
+}
+
+.Front-header {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background: white;
+  height: 66vh;
+  width: 100%;
+}
+
+.Front-header-title {
+  font-size: 3rem;
+  text-indent: -0.2rem;
+}
+
+.Front-header-subtitle {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.Front-header-description {
+  font-size: 1rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.Front-map-overlay {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: rgba(0,0,0,0.25);
+  height: 34vh;
+  width: 100%;
+}
+
+.Front-map-overlay-toggle {
+  display: none;
+}
+
+.Front-map-overlay:hover {
+  background-color: rgba(0,0,0,0.75);
+  cursor: pointer;
+  transition-duration: 250ms;
+}
+
+.Front-map-overlay:hover > .Front-map-overlay-toggle {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .Front-header-title {
+    font-size: 4rem;
+    text-indent: -0.3rem;
+  }
+}
