@@ -1,8 +1,8 @@
 <h1>GDAK | Real-Time Public Transportation Map for Gdansk, Poland</h1>
 
-<h3><a href="https://gdak.adrianiskander.com">CHECK LIVE DEMO</a></h3>
+<h3><a href="https://gdak.ct8.pl" target="_new">CHECK LIVE DEMO</a></h3>
 
-<a href="https://gdak.adrianiskander.com"><img src="https://static.ct8.pl/images/gdak_web_front.png" width="100%" alt="GDAK | Real-Time Public Transportation Map for Gdansk, Poland"></a>
+<a href="https://gdak.ct8.pl" target="_new"><img src="https://static.ct8.pl/images/gdak_web_front.png" width="100%" alt="GDAK | Real-Time Public Transportation Map for Gdansk, Poland"></a>
 
 
 <h3>Requirements:</h3>
